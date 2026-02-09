@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
     cancelButtonText: "No",
   }).then((result) => {
     if (result.isConfirmed) {
-      document.querySelector("hbd.mp3").play();
+      document.querySelector(".song").play();
       animationTimeline();
     } else {
       animationTimeline();
